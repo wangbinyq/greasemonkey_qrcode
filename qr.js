@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Show QRCode
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  显示网页二维码
 // @author       whbb
 // @match        http://*/*
