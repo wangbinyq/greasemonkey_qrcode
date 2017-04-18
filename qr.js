@@ -350,12 +350,10 @@
     })
   }
 
-  console.log('qrcode setting: ', setting)
   GM_registerMenuCommand('QrCode Default', setDefault)
 
   let q = 0
   document.onkeydown = function (e) {
-    console.log(e)
     if ((!setting.isCtrl || e.ctrlKey) && (!setting.isAlt || e.altKey) && (!setting.isShift || e.shiftKey)) {
       if (setting.keyList[q] == e.which && setting.keyList.length === q + 1) {
         vex.dialog.open({
