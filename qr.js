@@ -2,7 +2,7 @@
 // @name         Show QRCode
 // @name:en      Show QRCode
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  显示网页二维码
 // @description:en  show current page qrcode
 // @author       whbb
